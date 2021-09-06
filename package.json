@@ -25,7 +25,8 @@
     "storybook": "start-storybook -p 6006",
     "storybook:export": "build-storybook",
     "generate": "node ./util/create-component",
-    "prepublishOnly": "npm run prod"
+    "prepublishOnly": "npm run prod",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
@@ -78,7 +79,7 @@
     "@testing-library/user-event": "^13.2.1",
     "global-jsdom": "^8.2.0",
     "html-webpack-plugin": "^5.3.2",
-    "husky": "^7.0.2",
+    "husky": "^7.0.0",
     "jsdom": "^17.0.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
