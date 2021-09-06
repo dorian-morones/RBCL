@@ -18,7 +18,7 @@ export default {
 
 const Template = (args) => <Button {...args} />;
 
-//👇 Each story then reuses that template
+// Each story then reuses that template
 export const Default = Template.bind({});
 
 Default.args = {
