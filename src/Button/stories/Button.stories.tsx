@@ -25,5 +25,5 @@ Default.args = {
   content: "Click Me!",
   width: 200,
   fill: '#1464ff',
-  color: '#fff'
+  color: '#fff432'
 };

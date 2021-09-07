@@ -9,6 +9,7 @@ build/*
 dist/* 
 package.json
 docs-build/*
+docs/*
 
 # Runtime data
 pids
