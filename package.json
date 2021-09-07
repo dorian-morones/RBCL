@@ -24,7 +24,7 @@
     "test:watch": "jest --watch",
     "storybook": "start-storybook -p 6006",
     "storybook:export": "build-storybook",
-    "build-storybook": "build-storybook -o docs-build",
+    "build-storybook": "build-storybook -o docs",
     "generate": "node ./util/create-component",
     "prepublishOnly": "npm run prod",
     "prepare": "husky install",
