@@ -1,6 +1,6 @@
 {
   "name": "rbc",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "description": "React UI component Library",
   "main": "./dist/index.js",
   "keywords": [
@@ -26,7 +26,8 @@
     "storybook:export": "build-storybook",
     "generate": "node ./util/create-component",
     "prepublishOnly": "npm run prod",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "semantic-release": "semantic-release"
   },
   "husky": {
     "hooks": {
@@ -37,6 +38,13 @@
   "author": {
     "name": "Dorian Morones",
     "email": "dorian.morones@outlook.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dorian-morones/RBCL"
+  },
+  "bugs": {
+    "url": "https://github.com/dorian-morones/RBCL"
   },
   "license": "MIT",
   "peerDependencies": {
@@ -84,6 +92,10 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-element-to-jsx-string": "^14.3.2",
-    "styled-components": "^5.3.1"
+    "styled-components": "^5.3.1",
+    "semantic-release": "^17.4.7"
+  },
+  "publishConfig": {
+    "access": "restricted"
   }
 }
