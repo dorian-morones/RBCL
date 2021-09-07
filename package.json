@@ -1,5 +1,5 @@
 {
-  "name": "rbc",
+  "name": "rbcl",
   "version": "0.0.0-development",
   "description": "React UI component Library",
   "main": "./dist/index.js",
@@ -96,6 +96,6 @@
     "semantic-release": "^17.4.7"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   }
 }
