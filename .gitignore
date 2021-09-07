@@ -10,6 +10,7 @@ dist/*
 package.json
 docs-build/*
 docs/*
+storybook-static/
 
 # Runtime data
 pids
