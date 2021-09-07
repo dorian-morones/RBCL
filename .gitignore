@@ -8,6 +8,7 @@ yarn-error.log*
 build/*
 dist/* 
 package.json
+docs-build/*
 
 # Runtime data
 pids
