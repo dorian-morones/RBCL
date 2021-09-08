@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import { StyledButton } from './style/button';
+import { StyledButton } from './style/Button_Style';
 
 // Types
 import { ButtonProps } from './Button.types'
