@@ -33,7 +33,7 @@ const Checkbox: React.FC<CheckboxProps> = ({
 
   return (
     <>
-      <CheckboxWrapper>
+      <CheckboxWrapper data-testid="Checkbox_Test">
         <HiddenCheckboxElement
           id={id}
           ref={ref}
