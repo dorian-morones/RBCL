@@ -3,11 +3,11 @@ import { render } from '@testing-library/react';
 
 import Modal from '../Modal';
 
-describe("Raptor Button", () => {
+describe("Raptor Modal", () => {
 
   const renderComponent = () => render(<Modal title="Modal Test" content="Tooltip Content" show={true} close={() => {}} />);
 
-  it("Raptor Button Render", () => {
+  it("Raptor Modal Render", () => {
     const { getByTestId } = renderComponent();
     const testComponent = getByTestId("Modal_Test");
 

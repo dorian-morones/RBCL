@@ -33,7 +33,7 @@ const RangeSlider: FunctionComponent<RangerProps> = ({ className, label, onChang
   }, [mouseState]);
 
   return (
-    <RangerContainer>
+    <RangerContainer data-testid="Ranger_Test">
       <RangerTitle>{label}</RangerTitle>
       <RangerValueContainer>
         <input

@@ -1,7 +1,7 @@
 export interface RangerProps {
   className?: any;
-  label?: any;
+  label?: string;
   onChange?: any;
-  value?: any;
+  value?: number;
 }
 
