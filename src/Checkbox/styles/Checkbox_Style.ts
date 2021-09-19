@@ -30,7 +30,7 @@ export const CheckboxLabel = styled.label.attrs({
 })`
   position: relative;
   cursor: pointer;
-  color: #000;
+  color: #fff;
   margin-left: 5px;
 `;
 
