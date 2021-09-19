@@ -1,4 +1,6 @@
 import React, { FunctionComponent } from 'react';
+
+// Styles
 import { StyledButton } from './style/Button_Style';
 
 // Types

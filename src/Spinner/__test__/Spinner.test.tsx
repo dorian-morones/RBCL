@@ -3,11 +3,11 @@ import { render } from '@testing-library/react';
 
 import Spinner from '../Spinner';
 
-describe("Raptor Button", () => {
+describe("Raptor Spinner", () => {
 
   const renderComponent = () => render(<Spinner />);
 
-  it("Raptor Button Render", () => {
+  it("Raptor Spinner Render", () => {
     const { getByTestId } = renderComponent();
     const testComponent = getByTestId("Spinner_Test");
 

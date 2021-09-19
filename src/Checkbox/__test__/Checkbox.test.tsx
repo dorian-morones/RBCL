@@ -5,11 +5,11 @@ import '@testing-library/jest-dom'
 import Checkbox from '../Checkbox';
 
 
-describe("RBC Button", () => {
+describe("RBC Checkbox", () => {
   beforeEach(cleanup);
   const handleMockEvent = jest.fn();
 
-  it("RBC Button Render", () => {
+  it("RBC Checkbox Render", () => {
     const {getByTestId} = render(<Checkbox label='Label' name='checkbox' checked={true} onChange={handleMockEvent} />);
     const element = getByTestId("Checkbox_Test");
 
