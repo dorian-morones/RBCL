@@ -4,4 +4,5 @@ export interface ModalProps {
   show: boolean;
   close: any;
   overlayClick?: boolean;
+  width?: number;
 }

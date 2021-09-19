@@ -8,8 +8,9 @@ export default {
   component: Modal,
   argTypes: {
     title: { control: 'string' },
+    width: { control: 'number'},
     content: { control: 'object'},
-    show: { control: 'boolean'}
+    show: { control: 'boolean'},
   },
 } as Meta;
 
@@ -29,5 +30,6 @@ export const Default = Template.bind({});
 Default.args = {
   title:'RBCL Modal',
   show: false,
-  content: contentText
+  content: contentText,
+  width: 500,
 };

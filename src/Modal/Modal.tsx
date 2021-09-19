@@ -21,6 +21,7 @@ const Modal: FunctionComponent<ModalProps> = ({
   overlayClick = true,
   show,
   close,
+  width
 }) => {
 
   // Ref
@@ -44,7 +45,7 @@ const Modal: FunctionComponent<ModalProps> = ({
     <>
       { show && (
         <ModalOverlay data-testid="Modal_Test">
-          <ModalContainer id="ModalUI" ref={modalRef}>
+          <ModalContainer id="ModalUI" ref={modalRef} width={width}>
             <ModalHeader>
               <p>{title}</p>
               <FontAwesomeIcon icon={faTimes} onClick={() => close()} />

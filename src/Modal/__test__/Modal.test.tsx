@@ -5,7 +5,7 @@ import Modal from '../Modal';
 
 describe("Raptor Button", () => {
 
-  const renderComponent = () => render(<Modal title="Modal Test" content="Tooltip Content" show={true} close={() => {}} />);
+  const renderComponent = () => render(<Modal title="Modal Test" content="Modal Content" show={true} close={() => {}} />);
 
   it("Raptor Button Render", () => {
     const { getByTestId } = renderComponent();
