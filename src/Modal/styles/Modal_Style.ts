@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+interface ModalContainerProps {
+  width: number;
+}
+
 export const ModalOverlay = styled.div`
     position: fixed;
     display: block;
@@ -14,11 +18,11 @@ export const ModalOverlay = styled.div`
     z-index: 20;
 `;
 
-export const ModalContainer = styled.div`
+export const ModalContainer = styled.div<ModalContainerProps>`
   margin: 5% auto;
   background-color: #fff;
   border-radius: 8px;
-  width: fit-content;
+  width:${({width}) => width ? `${width}px` : 'fit-content'} ;
   position: relative;
   color: #000;
 `;
@@ -28,8 +32,7 @@ export const ModalHeader = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 50px;
-  min-width: 400px;
+  height: 30px;
   padding: 10px 20px;
   background-color: #dadada;
   border-radius: 8px 7px 0 0;
