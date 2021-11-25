@@ -10,6 +10,8 @@ export default {
     label: { control: 'text' },
     name: { control: 'text' },
     checked: { control: 'boolean' },
+    fill: { control: 'color' },
+    color: { control: 'color' }
   },
 } as Meta;
 
@@ -22,5 +24,5 @@ Default.args = {
   label: "Label!",
   name: "Dorian",
   checked: false,
-  id: '2'
+  id: '2',
 };

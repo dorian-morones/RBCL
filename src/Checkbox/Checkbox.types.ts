@@ -7,7 +7,6 @@ export interface CheckboxProps {
   name: string;
   checked?: boolean;
   onChange?: any;
-  borderColor?: string;
   fill?: string;
   color?: string;
 }

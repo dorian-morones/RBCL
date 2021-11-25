@@ -20,7 +20,7 @@ const Checkbox: React.FC<CheckboxProps> = ({
   ref,
   id,
   fill = '#1464ff',
-  color = '#fff'
+  color = '#fff',
 }) => {
   const [isChecked, setIsChecked] = useState(checked);
 
