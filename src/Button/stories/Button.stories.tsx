@@ -13,6 +13,7 @@ export default {
     padding: { control: 'number' },
     color: { control: 'color' },
     fill: { control: 'color' },
+    disabled: { control: 'boolean' },
   },
 } as Meta;
 
@@ -25,5 +26,6 @@ Default.args = {
   content: "Click Me!",
   width: 200,
   fill: '#1464ff',
-  color: '#fff432'
+  color: '#fff432',
+  disabled: false
 };

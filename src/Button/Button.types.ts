@@ -6,4 +6,5 @@ export interface ButtonProps {
   handleClick: any;
   padding?: number;
   margin?: number;
+  disabled?: boolean;
 }
