@@ -14,6 +14,7 @@ const Button: FunctionComponent<ButtonProps> = ({
   width,
   padding,
   margin,
+  disabled
 }) => {
   return (
     <StyledButton
@@ -25,6 +26,7 @@ const Button: FunctionComponent<ButtonProps> = ({
       padding={padding}
       margin={margin}
       fill={fill}
+      disabled={disabled}
     >
       {content}
     </StyledButton >

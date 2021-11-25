@@ -7,10 +7,11 @@ interface ButtonProps {
   padding?: number;
   margin?: number;
   fill?:string;
+  disabled?: boolean
 }
 
 export const StyledButton = styled.button.attrs(() => ({
-  className: 'RBC__Button'
+  className: 'RBCL__Button'
 }))<ButtonProps>`
   border-radius: 5px;
   width: ${({width}) => (width ? `${width}px` : '100%')};
@@ -21,8 +22,19 @@ export const StyledButton = styled.button.attrs(() => ({
   color: ${({color}) => (color ? `${color}` : '#fff')};
   padding: ${({padding}) => (padding ? `${padding}px` : '10px')};
   margin: ${({margin}) => (margin ? `${margin}px` : '10px')};
+  cursor: pointer;
   
   &:hover {
     filter: brightness(120%);
   }
+
+  ${({disabled}) => {
+    if(disabled){
+      return css`
+        background-color: grey;
+        color: #3e3e3e;
+        cursor: not-allowed;
+      `
+    }
+  }}
 `;
