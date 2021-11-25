@@ -32,8 +32,8 @@ _________________
 - deploy to gh-pages
 
 ```
-npm run storybool:export
+npm run storybook:export
 
-npm run deploy-storybook
+npm run deploy-storybook-gh
 
 ```
